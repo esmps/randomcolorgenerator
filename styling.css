@@ -1,5 +1,7 @@
 body{
     background-color: RGB(214, 193, 230);
+    height: 100vh;
+    width: 100vw;
 }
 
 .button{
@@ -49,7 +51,8 @@ body{
 }
 
 @media only screen 
-    and (device-width : 375px) 
+    and (device-width : 375px)
+    and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3) {
     .button{
         width: 80vw;
