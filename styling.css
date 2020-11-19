@@ -1,0 +1,60 @@
+body{
+    background-color: RGB(214, 193, 230);
+}
+
+.button{
+    text-align: center;
+    height: 30vh;
+    width: 300px;
+    margin: 30vh auto;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.button > button{
+    height: 10vh;
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: aliceblue;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 150px;
+    border-color: black;
+    margin: 8vh auto 0;
+    
+}
+
+#content{
+    display: flex;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 15px;
+    background-color: aliceblue;
+    border-style: solid;
+}
+#content > p{
+    margin: auto auto;
+}
+
+@media all and (max-height: 600px){
+   .button{
+        height: 50vh;
+    }
+    .button > button{
+        height: 20vh;
+    }
+}
+
+@media all and (max-width: 300px){
+    .button{
+        width: 80vh;
+        padding: 0;
+        margin: 0;
+    }
+    .button > button{
+    height: 50px;
+    width: 500px;
+}
